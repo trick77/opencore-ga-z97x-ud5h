@@ -6,3 +6,5 @@ OpenCore: 4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102:opencore-version	REL-063-2020-11-
 OS: macOS 11 Big Sur  
   
 Do not use this without the proper modifications (i.e. SMBios)!  
+
+For details check out https://trick77.com/ga-z97x-ud5h-and-macos-11-big-sur-with-opencore/
