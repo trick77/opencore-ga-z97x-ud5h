@@ -212,6 +212,24 @@
 	<dict>
 		<key>Add</key>
 		<array>
+                        <dict>
+                                <key>Arch</key>
+                                <string>x86_64</string>
+                                <key>BundlePath</key>
+                                <string>USBMap.kext</string>
+                                <key>Comment</key>
+                                <string>USBMap</string>
+                                <key>Enabled</key>
+                                <false/>
+                                <key>ExecutablePath</key>
+                                <string></string>
+                                <key>MaxKernel</key>
+                                <string></string>
+                                <key>MinKernel</key>
+                                <string>12.0.0</string>
+                                <key>PlistPath</key>
+                                <string>Contents/Info.plist</string>
+                        </dict>
 			<dict>
 				<key>Arch</key>
 				<string>x86_64</string>
@@ -831,7 +849,7 @@
 			<key>MinimumVolume</key>
 			<integer>20</integer>
 			<key>PlayChime</key>
-			<false/>
+			<string>Auto</string>
 			<key>VolumeAmplifier</key>
 			<integer>0</integer>
 		</dict>
